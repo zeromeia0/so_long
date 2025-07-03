@@ -1,7 +1,7 @@
 Run on terminal:
 
-  make lib
+    make lib
   
-  make
+    make
   
-  ./so_long maps/[map of your choice]
+    ./so_long maps/[map of your choice]
