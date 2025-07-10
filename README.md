@@ -1,4 +1,4 @@
-#Run on terminal
+# Run on terminal
 
     `make lib`
     `make`
