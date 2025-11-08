@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: vivaz-ca <vivaz-ca@student.42.fr>          +#+  +:+       +#+         #
+#    By: vvazzs <vvazzs@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/24 11:29:36 by vivaz-ca          #+#    #+#              #
-#    Updated: 2025/06/14 12:37:23 by vivaz-ca         ###   ########.fr        #
+#    Updated: 2025/11/08 11:57:05 by vvazzs           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,7 +51,7 @@ $(OBJDIR)/%.o: ./%.c
 	@$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
 
 clean:
-	@rm -rf $(OBJDIR) libmlx.a mlx.h
+	@rm -rf $(OBJDIR)
 
 fclean: clean
 	rm -f $(NAME)
