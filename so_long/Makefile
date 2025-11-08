@@ -63,7 +63,7 @@ val:
 	
 lib:
 	tar -xf minilibx-linux.tgz
-	cd minilibx-linux && ./configure && cp libmlx.a ../ && cp mlx.h ../
+	cd minilibx-linux && make CFLAGS="-O3 -std=gnu11"
 	test -f libmlx.a
 	rm -rf minilibx-linux
 
